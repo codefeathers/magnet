@@ -1,6 +1,18 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+code {
+  display: inline;
+  padding: 6px;
+  background: #FEE;
+  color: red;
+}
+
+pre {
+  background: #EEE;
+  padding: 40px;
 }
 
 a {

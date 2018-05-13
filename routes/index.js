@@ -18,7 +18,7 @@ router.get('/:shortlink', (req, res, next) => {
 			const r = String(record);
 			const [ magnet, title ] = r.split('@@title@@');
 			const meta = {
-				title: title ? title : 'magent ⚡️'
+				title: title ? '⚡ ' + title : '⚡ :magnet:'
 			}
 			res.send(template(magnet, meta))
 		})
