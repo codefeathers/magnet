@@ -16,9 +16,7 @@ template = (magnet, meta) => (`
 </head>
 <body>
 	<h1>⚡ :magnet:</h1>
-	<pre>
-		${magnet}
-	</pre>
+	<pre>${magnet}</pre>
 	</p>
 </body>
 </html>
