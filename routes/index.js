@@ -6,10 +6,22 @@ const magnet = require('./magnet');
 
 template = (magnet, meta) => (`
 <!DOCTYPE HTML>
- 
-<meta charset="UTF-8">
-<title>${meta.title}</title>
-<meta http-equiv="refresh" content="1; url=${magnet}">
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>${meta.title}</title>
+	<meta http-equiv="refresh" content="0; url=${magnet}">
+	<link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+	<h1>⚡ :magnet:</h1>
+	<pre>
+		${magnet}
+	</pre>
+	</p>
+</body>
+</html>
 `)
 
 router.get('/:shortlink', (req, res, next) => {
