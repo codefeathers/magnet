@@ -7,6 +7,12 @@
 
 <body>
   <h1>⚡ :magnet:</h1>
+  <form action="/api" method="POST">
+    <p>URI: <input type="text" name="uri"><br/></p>
+    <p>Title (optional): <input type="text" name="title"><br/></p>
+    <button type="submit">Create</button>
+  </form>
+  <hr />
   <p>POST to <code>/api</code> with this request body:
     <pre>
       {
