@@ -15,7 +15,7 @@ const foundTemplate = (magnet, meta) => (`
 	<link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
-	<h1>⚡ :magnet:</h1>
+	<h1>${meta.title} </h1>
 	<pre>${magnet}</pre>
 	</p>
 </body>
