@@ -10,7 +10,7 @@ const foundTemplate = (magnet, meta) => (`
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>${meta.title}</title>
+	<title>⚡ ${meta.title}</title>
 	<meta http-equiv="refresh" content="0; url=${magnet}">
 	<link rel="stylesheet" href="/stylesheets/style.css">
 </head>
